@@ -14,6 +14,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Ranchers&display=swap');
 
@@ -37,12 +44,7 @@ header a {
     color: inherit;
 }
 
-h1{
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 #menu{
     font-size: 110%;
@@ -95,8 +97,24 @@ main{
 #hero {
     height: 600px;
     width: 100%;
-    background:url(assets/images/hero-image.webp) no-repeat center center/cover;
-    
+    background:url("assets/images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+
+}
+
+#cover-text{
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #fff;
 }
 
 /*footer*/
@@ -148,6 +166,11 @@ main{
         margin-top: 79px;
     }
 
+    /*hero text*/
+    #cover-text{
+        width: 300px;
+        right: 50px;
+    }
 
 }
 
