@@ -96,7 +96,7 @@ footer{
 }
 
 
-/*media query tables and desktop*/
+/*media query tables */
 
 @media screen and (min-width: 769px){
     /*header*/
@@ -132,4 +132,15 @@ footer{
 
 
 }
+
+/*media query larger than 992px */
+@media screen and (min-width: 992px) {
+    
+
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+
     
