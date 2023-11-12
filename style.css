@@ -232,6 +232,25 @@ margin-bottom: 20px;
         right: 50px;
     }
 
+    /*Reason section*/
+
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-physical > div,
+    #benefits-mental >div{
+        width: 75%;
+    }
+
+    #benefits-mental >div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
 }
 
 /*media query larger than 992px */
